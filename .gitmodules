@@ -1,0 +1,3 @@
+[submodule "brtos"]
+	path = brtos
+	url = https://github.com/brtos/brtos.git
