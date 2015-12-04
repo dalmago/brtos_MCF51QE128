@@ -8,6 +8,7 @@
  */
 #include <stdint.h>
 #include "derivative.h"
+#include "HAL.h"
 
 #define DEVICE_FAMILY_CFV1
 
