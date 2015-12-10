@@ -45,7 +45,7 @@ all: brtos_project.elf secondary-outputs
 brtos_project.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Coldfire C Linker'
-	m68k-elf-gcc -mcpu=51 -g3 -O0 -Wl,--gc-sections -L"C:/workspace/eclipse/brtos_MCF51QE128/brtos_project/Project_Settings/Linker_Files" -T "Linker-rom.ld" -Xlinker -Map="brtos_project.map"  -o "brtos_project.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	m68k-elf-gcc -mcpu=51 -g3 -Os -Wl,--gc-sections -L"C:/workspace/eclipse/brtos_MCF51QE128/brtos_project/Project_Settings/Linker_Files" -T "Linker-rom.ld" -Xlinker -Map="brtos_project.map"  -o "brtos_project.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
