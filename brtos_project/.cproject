@@ -28,9 +28,9 @@
 								</option>
 								<option id="net.sourceforge.usbdm.cdt.toolchain.cppAssembler.Directories.includePaths.1365324906" name="Include paths (-I)" superClass="net.sourceforge.usbdm.cdt.toolchain.cppAssembler.Directories.includePaths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Project_Headers&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\brtos\brtos\includes&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\brtos\hal\GCC_CFV1&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\brtos\hal\MemoryAllocation&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../brtos/brtos/includes&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../brtos/hal/MemoryAllocation&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../brtos/hal/GCC_CFV1&quot;"/>
 								</option>
 								<inputType id="net.sourceforge.usbdm.cdt.coldfire.toolchain.cppAssembler.inputType.25922455" superClass="net.sourceforge.usbdm.cdt.coldfire.toolchain.cppAssembler.inputType"/>
 							</tool>
@@ -41,9 +41,9 @@
 								<option id="net.sourceforge.usbdm.gnu.c.compiler.option.include.paths.1088941522" name="Include paths (-I)" superClass="net.sourceforge.usbdm.gnu.c.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Sources&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Project_Headers&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\brtos\brtos\includes&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\brtos\hal\GCC_CFV1&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\brtos\hal\MemoryAllocation&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../brtos/brtos/includes&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../brtos/hal/GCC_CFV1&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../brtos/hal/MemoryAllocation&quot;"/>
 								</option>
 								<inputType id="net.sourceforge.usbdm.cdt.coldfire.toolchain.c.compiler.input.1208215421" superClass="net.sourceforge.usbdm.cdt.coldfire.toolchain.c.compiler.input"/>
 							</tool>
